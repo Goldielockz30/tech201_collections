@@ -4,7 +4,7 @@
 
 # here's our first list
 
-shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
+# shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
 
 # print(type(shopping_list)) # <class 'list'>
 # print(shopping_list)
@@ -21,7 +21,7 @@ shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
 # List methods
 
 # add to a list
-shopping_list.append("vegetables")
+# shopping_list.append("vegetables")
 # print(shopping_list)
 # print(shopping_list[5])
 # print(shopping_list[-1])
@@ -61,10 +61,10 @@ shopping_list.append("vegetables")
 # exactly the same as lists, except they are immutable (un-editable
 # tuples are useful for elements you want to ensure some data stays the same
 
-essentials = ("bread", "eggs", "milk")
-
-print(essentials)
-print(essentials.count("bread"))
+# essentials = ("bread", "eggs", "milk")
+#
+# print(essentials)
+# print(essentials.count("bread"))
 
 # essentials[0] = "beans" , # will not work with tuples
 

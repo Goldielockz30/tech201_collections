@@ -46,15 +46,15 @@
 # outputs array of tuples(unchangeable) with key value pairs in dictionary
 # print(student_1.items())
 
-my_dict = {
-    "name": "Ahimba",
-    "age": "30",
-    "job_title": "Junior_DevOps",
-    "education": "mathematics",
-    "university": "London Metropolitan",
-    "last_job_title": "Gaming Supervisor",
-    "work_experience_in_years": 10,
-    "certifications": ["ISTQB", "Certificate of higher education"]
-}
-
-print(my_dict)
+# my_dict = {
+#     "name": "Ahimba",
+#     "age": "30",
+#     "job_title": "Junior_DevOps",
+#     "education": "mathematics",
+#     "university": "London Metropolitan",
+#     "last_job_title": "Gaming Supervisor",
+#     "work_experience_in_years": 10,
+#     "certifications": ["ISTQB", "Certificate of higher education"]
+# }
+#
+# print(my_dict)
