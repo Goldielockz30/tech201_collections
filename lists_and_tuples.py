@@ -25,7 +25,7 @@ shopping_list.append("vegetables")
 # print(shopping_list)
 # print(shopping_list[5])
 # print(shopping_list[-1])
-# print(len(shopping_list)) # because we added vagetables we have a length of 6
+# print(len(shopping_list)) # because we added vegetables we have a length of 6
 
 # remove from list
 
