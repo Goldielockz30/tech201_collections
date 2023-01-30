@@ -48,8 +48,12 @@
 
 my_dict = {
     "name": "Ahimba",
+    "age": "30",
     "job_title": "Junior_DevOps",
-    "experience_in_years": 0,
+    "education": "mathematics",
+    "university": "London Metropolitan",
+    "last_job_title": "Gaming Supervisor",
+    "work_experience_in_years": 10,
     "certifications": ["ISTQB", "Certificate of higher education"]
 }
 
