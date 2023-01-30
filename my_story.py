@@ -14,3 +14,5 @@ print(story_1.values())
 print(story_1.get("start"))
 print(story_1.get("middle"))
 print(story_1.get("end"))
+story_1["hero"] = "yourSuperHero"
+print(story_1)
