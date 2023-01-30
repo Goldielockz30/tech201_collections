@@ -70,4 +70,91 @@ print(essentials.count("bread"))
 
 essentials[0] = "beans" , # will not work with tuples
 
+# Dictionaries
 
+##### Dictionaries use key/value pairs
+
+key = a reference to a particular object  
+value = data storage mechanism you want to use, not just the data but how the data is stored
+
+### Create a dictionary  
+
+student_1 = {  
+     "name": "Susan",  
+     "stream": "DevOps",  
+     "completed_lessons": 4,  
+     "completed_lesson_names": ["variables", "data_types", "set_up"]  
+ }
+
+###  Access data within a dictionary
+
+print(student_1["stream"]) # DevOps  
+
+Access a particular element of a list  
+print(student_1["completed_lesson_names"][2]) # set_up
+
+### Changing a value in a dictionary
+
+student_1["completed_lessons"] = 3  
+print(student_1["completed_lessons"])
+
+### Removing items from a dictionary
+
+student_1["completed_lesson_names"].remove("data_types")  
+print(student_1["completed_lesson_names"])
+
+### dictionary methods
+
+### Keys
+print(student_1.keys())
+
+### get the value of a key back without [ ]
+print(student_1.get("name"))
+
+### get the values of a dictionary
+
+print(student_1.values()) # this will print the values in the key:value pair  
+
+### the following will give an output of an array of tuples(unchangeable) with key value pairs in dictionary
+ 
+print(student_1.items())
+
+my_dict = {  
+     "name": "Ahimba",  
+     "age": "30",  
+     "job_title": "Junior_DevOps",  
+     "education": "mathematics",  
+     "university": "London Metropolitan",  
+     "last_job_title": "Gaming Supervisor",  
+     "work_experience_in_years": 10,  
+     "certifications": ["ISTQB", "Certificate of higher education"]  
+ }  
+
+ print(my_dict)
+
+# Sets and Frozen sets
+
+##### Lists and sets are very similar
+
+##### Sets are unordered
+
+### create a set
+
+car_parts = {"wheels", "exhaust", "doors"}  
+print(car_parts)  
+print(car_parts)  
+
+### remove things from a set
+
+car_parts.discard("doors")  
+print(car_parts)  
+
+### add things to a set
+car_parts.add("windows")  
+print(car_parts)  
+
+### Frozen sets
+
+#### frozen sets are immutable versions of a set. still unordered and un- indexed
+x = frozenset([1, 2, 3, 4, "five"])  
+print(x)
