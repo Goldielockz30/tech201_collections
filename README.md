@@ -9,8 +9,8 @@ tech201_collections
 
  shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
 
- print(type(shopping_list)) # <class 'list'>  
- print(shopping_list)
+ print(type(shopping_list)) # <class 'list'>    
+ print(shopping_list)   
  print(shopping_list[0]) # milk, note that it takes away the formatting ([ " ,)  
  print(shopping_list[3]) # fruit  
  print(shopping_list[-1]) # cheese  
