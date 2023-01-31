@@ -155,6 +155,6 @@ print(car_parts)
 
 ### Frozen sets
 
-#### frozen sets are immutable versions of a set. still unordered and un- indexed
+#### frozen sets are immutable versions of a set meaning you cannot add or remove items. still unordered and un- indexed
 x = frozenset([1, 2, 3, 4, "five"])  
 print(x)
