@@ -7,36 +7,37 @@ tech201_collections
 
  here's our first list
 
- shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
+ ``` shopping_list = ["milk", "eggs", "bread", "fruit", "cheese"]
 
  print(type(shopping_list)) # <class 'list'>    
  print(shopping_list)   
  print(shopping_list[0]) # milk, note that it takes away the formatting ([ " ,)  
  print(shopping_list[3]) # fruit  
  print(shopping_list[-1]) # cheese  
- print(shopping_list[-4]) # milk  
+ print(shopping_list[-4]) # milk 
+ ```
 
 # Rewriting a Value in our list
-shopping_list[0] = "sugar"  
+``` shopping_list[0] = "sugar"  
 print(shopping_list[0])  
 print(shopping_list) # milk has been overwritten with the value sugar
-
+```
 # List Methods
-
+```
 add to a list
  shopping_list.append("vegetables")  
 print(shopping_list)    
 print(shopping_list[-1])  
 print(len(shopping_list)) # because we added vegetables we have a length of 6
-
+```
 # Remove from List
-
+```
 shopping_list.remove("bread")  
 print(len(shopping_list))  
 print(shopping_list)  
-
+```
 remove last item of list without specifying it
-
+```
 shopping_list.pop()  
 print(shopping_list)  
 shopping_list.pop()   
@@ -45,31 +46,32 @@ shopping_list.pop()
 print(shopping_list)  
 shopping_list.pop()  
 print(shopping_list)  
-
-Mixed data type list
+```
+### Mixed data type list
 square brackets for a list
+``` 
 mixture = [1, 2, 3.5, "one", "two", "three"]
 
 print(mixture)
-
+```
 # List slicing
-
+```
 print(mixture[1:3]) # (2, 3.5)  
 print(mixture[1::]) # reverse the order. prints everything after what index u choose  
 print(mixture[::2]) # bounces over the amount of indexes specified
-
+```
 # Tuples
 
 exactly the same as lists, except they are immutable (un-editable
 tuples are useful for elements you want to ensure some data stays the same
-
+```
 essentials = ("bread", "eggs", "milk")
 
 print(essentials)
 print(essentials.count("bread"))
 
 essentials[0] = "beans" , # will not work with tuples
-
+```
 # Dictionaries
 
 ##### Dictionaries use key/value pairs
@@ -78,36 +80,37 @@ key = a reference to a particular object
 value = data storage mechanism you want to use, not just the data but how the data is stored
 
 ### Create a dictionary  
-
+```
 student_1 = {  
      "name": "Susan",  
      "stream": "DevOps",  
      "completed_lessons": 4,  
      "completed_lesson_names": ["variables", "data_types", "set_up"]  
  }
-
+```
 ###  Access data within a dictionary
-
+```
 print(student_1["stream"]) # DevOps  
 
 Access a particular element of a list  
 print(student_1["completed_lesson_names"][2]) # set_up
-
+```
 ### Changing a value in a dictionary
-
+```
 student_1["completed_lessons"] = 3  
 print(student_1["completed_lessons"])
-
+```
 ### Removing items from a dictionary
-
+```
 student_1["completed_lesson_names"].remove("data_types")  
 print(student_1["completed_lesson_names"])
-
+```
 ### dictionary methods
 
 ### Keys
+```
 print(student_1.keys())
-
+```
 ### get the value of a key back without [ ]
 print(student_1.get("name"))
 
