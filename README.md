@@ -54,8 +54,8 @@ print(mixture)
 
 # List slicing
 
-print(mixture[1:3]) # (2, 3.5)
-print(mixture[1::]) # reverse the order. prints everything after what index u choose
+print(mixture[1:3]) # (2, 3.5)  
+print(mixture[1::]) # reverse the order. prints everything after what index u choose  
 print(mixture[::2]) # bounces over the amount of indexes specified
 
 # Tuples
