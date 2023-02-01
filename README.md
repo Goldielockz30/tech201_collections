@@ -112,14 +112,15 @@ print(student_1["completed_lesson_names"])
 print(student_1.keys())
 ```
 ### get the value of a key back without [ ]
+```
 print(student_1.get("name"))
-
+```
 ### get the values of a dictionary
-
+```
 print(student_1.values()) # this will print the values in the key:value pair  
-
+```
 ### the following will give an output of an array of tuples(unchangeable) with key value pairs in dictionary
- 
+ ```
 print(student_1.items())
 
 my_dict = {  
@@ -134,7 +135,7 @@ my_dict = {
  }  
 
  print(my_dict)
-
+```
 # Sets and Frozen sets
 
 ##### Lists and sets are very similar
@@ -142,22 +143,24 @@ my_dict = {
 ##### Sets are unordered
 
 ### create a set
-
+```
 car_parts = {"wheels", "exhaust", "doors"}  
 print(car_parts)  
 print(car_parts)  
 
-### remove things from a set
+# remove things from a set
 
 car_parts.discard("doors")  
 print(car_parts)  
 
-### add things to a set
+# add things to a set
 car_parts.add("windows")  
 print(car_parts)  
-
+```
 ### Frozen sets
 
 #### frozen sets are immutable versions of a set meaning you cannot add or remove items. still unordered and un- indexed
+```
 x = frozenset([1, 2, 3, 4, "five"])  
 print(x)
+```
